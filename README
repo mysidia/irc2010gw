@@ -1,0 +1,36 @@
+
+IIRC GW
+
+This software is the end user 'gateway' server for improved irc.
+
+The function of an end-user gateway on an iirc network is to accept
+connections from ordinary users operating traditional IRC clients.
+
+This is the software that will be expected to communicate with other
+levels on the IRC network on behalf of an actual human beings.
+
+The other layers are:
+
+       o User servers  (iirc_userv)
+          * Process user logins, hold user identity, certificates,
+            authentication, trust, and related information on behalf
+            of a user connecting
+          * Talk to iirc_gw (gateway servers) and deliver messages to
+            connected users
+
+       o Channel servers (iirc_cserv)
+          * Manage and control access to channels
+          * Maintain records on which clients have joined a
+            channel
+          * Addresses channel messages to clients that are logged on
+            members of the channel and have asked to receive messages
+            [multi-recipient messages are used]
+
+       o Name Mapping servers (iirc_map)
+          * Allows channel names/nick names to be registered 
+            across multiple user servers
+          * Maintains 'global identifiers' for local nicknames and
+            channels
+          * Determines what nicknames and channels will be recognized
+            by users of the particular mapping server
+
