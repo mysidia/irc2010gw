@@ -1,0 +1,8 @@
+autoscan: warning: missing AC_PROG_CXX wanted by: 
+	ltmain.sh:2489
+	ltmain.sh:2522
+	ltmain.sh:3380
+	ltmain.sh:3381
+autoscan: warning: missing AC_PROG_RANLIB wanted by: 
+	ltmain.sh:4949
+	Makefile.in:82
