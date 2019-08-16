@@ -1,6 +1,10 @@
 /*
  *  Sample/Test Server
+<<<<<<< HEAD
  *  Copyright C 2001 Mysidia ***REMOVED***  All Rights Reserved.
+=======
+ *  Copyright C 2001 ***REMOVED***.  All Rights Reserved.
+>>>>>>> 32fbcda58c470403dfe55b1779874cd0a0b526b7
  *
  *  This program is free software; you can redistribute it and/or modify
  *  it under the terms of the GNU General Public License as published by
